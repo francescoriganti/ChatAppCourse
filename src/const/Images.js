@@ -1,6 +1,10 @@
-import { Assets } from "@react-navigation/stack";
-import { isRequired } from "react-native/Libraries/DeprecatedPropTypes/DeprecatedColorPropType";
+const Images = {
+    logo: require('../../assets/logo.png'),
+    add: require('../../assets/add.png'),
+    logout: require('../../assets/logout.png'),
+    groups: require('../../assets/groups.png')
 
-const images = {
-    logo: required('../../assets/logo.png')
+
 }
+
+export default Images

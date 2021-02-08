@@ -6,7 +6,8 @@ const Color = {
     lightishgray:  '#9d9d9d',
     smoke: '#eeeeee',
     white: '#ffffff',
-    uaStudioGreen: '#219653'
+    uaStudioGreen: '#219653',
+    red: 'red'
 
 
 

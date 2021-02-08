@@ -4,11 +4,11 @@ import Color from '../utils/Colors'
 import Constants from '../const/Constants'
 
 
-const EmailTextField = ({term, placeholder, OnTermChange, onValidateEmailAddress, error}) => {
+const EmailTextField = ({term, placeholder, onTermChange, onValidateEmailAddress, error}) => {
     
     return (
         <View>
-            <Text style = {styles.error}>
+            <Text style = {styles.ErrorText}>
                 {error}
             </Text>
             <View style= {styles.TextFieldView}>
@@ -17,7 +17,7 @@ const EmailTextField = ({term, placeholder, OnTermChange, onValidateEmailAddress
                 style = {styles.TextField}
                 placeholder = {placeholder}
                 value = {term}
-                onChangeText = {OnTermChange}
+                onChangeText = {onTermChange}
                 onEndEditing = {onValidateEmailAddress}
                 />
             </View>
